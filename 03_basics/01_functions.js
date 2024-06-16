@@ -23,3 +23,11 @@ function claculatecartprice(... num1){  //...num is rest operator
    return num1;
 }
 console.log(claculatecartprice(200,400,500,600))
+
+// Arrays with function
+
+const mynewArray = [200,400,100,600]
+function getsecondArray(getvalue){
+   return getvalue[1];
+}
+console.log(getsecondArray(mynewArray));
