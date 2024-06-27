@@ -14,7 +14,7 @@ const  chai = function() {      // this is normal function
     console.log(this);
 }
 
-const  one = ()=> {         // this is arrao function 
+const  one = ()=> {         // this is arrow function 
     let username = "Arnav"
     console.log(this);
 }
